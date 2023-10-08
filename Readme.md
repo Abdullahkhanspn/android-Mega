@@ -119,12 +119,12 @@ Then reboot MacOS - to ensure newly installed latest bash (v5.x) overrides defau
 
 Then edit PATH env (Please make sure the gnu paths are setup in front of $PATH):
 
--   For Intel chip, add below lines in  `~/.zshrc`
+-   For Intel Chip, add below lines in  `~/.zshrc`
 
 `export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"`  
 `export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"`
 
--   For Apple chip, add below lines in  `~/.zshrc`
+-   For Apple Chip, add below lines in  `~/.zshrc`
 
 `export PATH="/opt/homebrew/opt/gnu-tar/libexec/gnubin:$PATH"`  
 `export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"`
@@ -163,7 +163,7 @@ boolean shouldUsePrebuiltSdk() {
 }
 ```
 
-### 11. Build mobile analytics library locally 
+### 11. Build Mobile analytics library locally 
 **Note: You need to occasionally redo this section to make sure latest analytics library is used.**
 
 1. Download and build [Mobile Analytics](https://github.com/meganz/mobile-analytics) source code. 
